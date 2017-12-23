@@ -21,9 +21,7 @@
     <update id="updateAddressByIdAndUserId" parameterType="UserAddress">
         UPDATE `easybuy_user_address`
         SET
-
         `address` = #{address},
-
         `isDefault` = #{isDefault},
         `remark` = #{remark}
 
